@@ -1,0 +1,45 @@
+body {
+    margin: 20px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  button {
+    background: rgb(111, 0, 255);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  button:hover {
+    background: rgb(69, 196, 19);
+  }
+  
+  #anime-demo {
+    text-align: left;
+  }
+  
+  .square {
+    pointer-events: none;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(100, 237, 196);
+    margin: 4px;
+    display: inline-block;
+  }
+  
+  .black {
+    background: black;
+  }
+  
+  .controls {
+    margin-top: 100px;
+  }
